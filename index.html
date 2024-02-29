@@ -3,39 +3,83 @@
    <head>
       <title>My Portfolio</title>
       <link href="styles.css" rel="stylesheet" type="text/css" />
-   </head>
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     </head>
    
    <body>
       <!-- Write your HTML in this file! -->
-      <header>
+      <header class="header">
+         <div id = "mainHeading">
+            <h1>Revathi's Portfolio</h1>
+         </div>
+         
          <!-- <ul>
             <li><a href = "#home">Home</a></li>
             <li><a href = "#aboutMe">About Me</a></li>
             <li><a href = "#contact">Contact</a></li>
             <li><a href = "#profile">Profile</a></li>
          </ul> -->
+         <nav class="navbar">
          <a href = "#home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
          <a href = "#aboutMe">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;
          <a href = "#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
          <a href = "#profile">Profile</a>
+      </nav>
       </header>
       
       <main>
          <article>
-            <section>
-               <div align="center">
+            <section class="home">
+               <div class="home-content">
                <a name = "home"></a>
-               <h2 >Home</h2>
-               <p><h1>Hello, there! </h1></p>
-               <h1><B>I Am Revathi</B></h1>
+               <div class="home-img">
+                  <figure>
+                  <img src="Cutepuppy.jpg">
+               </figure>
+                  </div>
+               <h2>Hello, It's Me</h2>
+               <h1>Revathi Anbazhagan </h1>
+               <h3>I'm a Full Stack Java Developer</h3>
                <p>This is my Website to know about me in detail.</p>
-               <img>
-            </section>
-         </div>
-         </article>
-              
+               <div class="home-sci">
+                  <a href="#"><i class='bx bxl-facebook-square' ></i></a>
+                  <a href="#"><i class='bx bxl-instagram'></i></a>
+                  <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                  <a href="#"><i class='bx bxl-github' ></i></a>
+               </div>
+               <a href="#" class="btn-box">More About Me</a>
+            </div>
+               </section>
+        </article>
+        <article>
+         <section class = "aboutMe" id="aboutMe">
+            <a name = "aboutMe"></a>
+            <!-- <div class="about-img">
+               <figure>
+               <img src="Cutepuppy.jpg">
+            </figure>
+               </div> -->
+               <div class = "about-text">
+                  <h2>About<span>Me</span></h2>
+                  <h4>Full Stack Developer</h4>
+                  <p>I wanted to become a software Engineer.I am looking a good pathway to enter.<br>
+                     Finally i found Launchcode.Now i am exploring Javascript. I am enjoying my course.</p>
+               </div>
+         </section>
       <p></p>
-      <article></article>
+      </article>
+
+      <article>
+         <section class = "Contact" id="contact">
+            <a name = "contact"></a>
+                  <div class = "contact-text">
+                     <h2>My Contact Details</h2>
+                 <p>Email : aaa@gmail.com</p>
+                 <p>Phone : 123-456-7890</p>
+               </div>
+         </section>
+      <p class="funParagraph">Thank you For Visiting my Website.</p>
+      </article>
    </main>
    <footer></footer>
    </body>
